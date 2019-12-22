@@ -8,7 +8,7 @@ import { SidebarComponent } from './component/sidebar/sidebar.component';
 
 const routes: Routes = [
 
-  { path: '', component: AppComponent},
+  
   { path: 'link1', component: Sidebar2Component},
   { path: 'link2', component: Sidebar2Component}
 

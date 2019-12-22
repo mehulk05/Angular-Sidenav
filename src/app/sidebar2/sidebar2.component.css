@@ -3,7 +3,7 @@
 }
 
 .card {
-    position: relative;
+    position: static;
     top: 0;
     bottom: 0px;
     left: 0;
