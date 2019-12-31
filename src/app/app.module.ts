@@ -8,7 +8,7 @@ import { SidebarComponent } from './component/sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { Sidebar2Component } from './sidebar2/sidebar2.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -33,6 +33,7 @@ import { FormsModule } from '@angular/forms';
     MatIconModule,
     MatMenuModule,
     FormsModule,
+	ReactiveFormsModule
     
  
   ],

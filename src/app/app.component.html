@@ -1,4 +1,9 @@
 
-<app-header></app-header>
-<app-sidebar></app-sidebar>
+<hello name="{{ name }}"></hello>
+<select (change)="selectChangeHandler($event)">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <option *ngFor="let order of orders; " [ngValue]="order">
+                  {{order.name}}
+  </option>
+</select>
 <router-outlet></router-outlet>
